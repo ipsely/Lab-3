@@ -33,7 +33,7 @@ int main() {
 	}
 	else
 	{
-		cout << "Check the entered data again.";
+		cout << "Check the entered data.";
 	}
 	return 0;
 }
