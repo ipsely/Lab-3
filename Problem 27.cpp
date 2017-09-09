@@ -6,7 +6,7 @@ int main() {
             int sum=0;
             cout<<"Sum of all natural numbers between 1 to : "<<endl;
             cin>>n;
-            i=1;
+            i=2;
 	while(i<n)
 	{
 		sum=sum+i;
