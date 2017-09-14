@@ -1,23 +1,21 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main()
-{ 
-     int n,i,j,c;
-     cout<<"Enter the number upto which you want to print the prime number"<<endl;
-     cin>>n;
-     cout<<"The prime numbers are ";
-     for(i=2;i<=n;i++)
-     {
-        c=0;
-        for(j=2;j<=i/2;j++)
-        {
-          if(i%j==0)
-          {   c=1;
-             break;
-          }
-        }
-        if(c==0&&n!=0)
-          cout<<i<<endl;
-     }
-     return 0;
+
+int main() {
+int n,k;
+cout << "Enter a number : "<<endl;
+cin >> n;
+cout << "Prime Numbers between 1 to "<<n<<" are :"<<endl;
+for( k=1 ; k<n ; k++)
+{
+int j=0,i;
+for( i=1 ; i<=k ; i++)
+{
+	if(k%i==0)
+	  j++;
+}
+if(j==2)
+  cout << k << endl;
+}
+return 0;
 }
