@@ -20,6 +20,7 @@ int main() {
 	}
 	lcm=(a*b)/m;
 	cout<<"LCM is "<<lcm;
+	return 0;
 	
 }      
             
