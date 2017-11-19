@@ -9,6 +9,7 @@ int main() {
 	{
 		hra = 0.20 * bsal;
 		da = 0.80 * bsal;
+		gross = bsal + hra + da;
 		cout << "Gross = "<< gross;
 		
 	}
