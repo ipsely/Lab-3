@@ -12,7 +12,7 @@ int main()
       cout << month <<" month has 30 days.";
     }
 		
-    else if (month == 02)
+    else if (month == 2)
     {
       cout << month <<" month has 28 days or 29 days if it's a leap year.";		
     }
