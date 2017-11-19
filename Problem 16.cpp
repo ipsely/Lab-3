@@ -9,7 +9,7 @@ int main() {
 	{
 		cout<<"The triangle is Equilateral.";
 	}
-	else if((s1==s2) || (s2==s3))
+	else if((s1==s2) || (s2==s3) || (s3==s1))
 	{
 		cout<<"The triangle is Isosceles.";
 	}
